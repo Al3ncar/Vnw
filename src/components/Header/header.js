@@ -1,8 +1,8 @@
 import React from 'react';
 import * as S from "./styled"
 
-import FHeader from './headers/FirHeader'
-import SHeader from './headers/SecHeader'
+import FHeader from './headers/F.Index'
+import SHeader from './headers/S.Index'
  
 export default function Header() {
   return(

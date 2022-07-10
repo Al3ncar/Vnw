@@ -2,20 +2,20 @@ import styled from "styled-components"
 
 export const ContNav = styled.div`
     width:100%;
-    padding-top:1%;
+    padding-top:2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 `
 export const BoxLog = styled.div`
-    width:5%;
     margin-left:2.5%;
-    position: relative;
+    position:relative;
+
 `
 export const Log = styled.img`
-    width:100%;
-    height: 100%;
-    position: sticky;
+    width:4%;
+    position: fixed;
+    top:2%;
     &:hover{
         transform: scale(1.1);
     }
@@ -59,15 +59,14 @@ export const Anc = styled.a`
 
 export const Cont = styled.div`
     width:100%;
-    padding: 7% 0% 0 0; 
+    padding: 13vh 0% 0 0; 
 `
 export const ContTitl = styled.div`
     margin-left: 10%;
 `
 
 export const Titl = styled.h1`
-    width:79%;
-    overflow: hidden;
+    width:83%;
     line-height:9vh;
     font-size: 3.5vw;
     text-shadow: 2px 0px 0px #FFAC2D;
@@ -81,9 +80,9 @@ export const Bars = styled.span`
 `
 
 export const Card = styled.div`
-    width:49%;
+    width:45%;
     height: 100%;
-    margin: 2% 0 0 10%;
+    margin: 6vh 0 0 10%;
     padding:0 1.3%;
     background-color: #fff;
     border-radius:1vw;

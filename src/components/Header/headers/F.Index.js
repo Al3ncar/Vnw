@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./styled"
-import MiniLog from "../img_header/MiniLog.svg"
+import MiniLog from "./img_header/MiniLog.svg"
 
 export default function FirHeader(){
     return(
@@ -8,7 +8,7 @@ export default function FirHeader(){
             <section>
                 <S.ContNav>
                     <S.BoxLog>
-                        <S.Log src={MiniLog} alt=""/>
+                        <S.Log src={MiniLog} alt="Logo VainaWeb"/>
                     </S.BoxLog>
                     <S.BoxNav>
                         <S.Navg>
