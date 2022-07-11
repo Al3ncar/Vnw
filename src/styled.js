@@ -9,5 +9,6 @@ const GlobalStyle = createGlobalStyle`
   body{
     width:100%;
   }
+  
 `
 export default GlobalStyle 

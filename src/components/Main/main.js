@@ -11,11 +11,11 @@ export default function Main() {
     <>
         <div>
             <FMain/>
-            {/* <FSMain/> */}
+            <FSMain/> 
         </div>
         <div>
-            {/* <SMain/>
-            <SSMain/> */}
+            <SMain/>
+            <SSMain/>
         </div>
     </>
   )

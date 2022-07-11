@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 export const ContNav = styled.div`
     width:100%;
     padding-top:2%;
@@ -44,7 +45,7 @@ export const List = styled.li`
     outline: none;
     &:hover{
         transition: 0.2s;
-        outline:solid 0.2vw #FFAC2D;
+        outline:solid 0.2vw  #FFAC2D;
     }
 `
 export const Anc = styled.a`
@@ -70,7 +71,7 @@ export const Titl = styled.h1`
     line-height:9vh;
     font-size: 3.5vw;
     text-shadow: 2px 0px 0px #FFAC2D;
-    color:#FFAC2D;
+    color: #FFAC2D;
 `
 export const Bars = styled.span`
     text-shadow: none;

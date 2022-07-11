@@ -1,51 +1,63 @@
 import React from 'react';
-
+import Backg from "../imgs_main/codBack.png"
+import NoteIc from "../imgs_main/icoNote.svg"
+import * as S from "./styled"
 
 export default function Smains(){
   return (
     <>
-        <section>
-          <section>
+        <S.ContForm>
+          <S.BoxCont>
   
-            <div>
+            <S.BoxFor>
               <h3>Formação</h3>
-            </div>
+            </S.BoxFor>
   
-            <div>
-              <div>
-                <img src="" alt=""/>
-              </div>
-              <div>
-                <div>
+            <S.ContNote>
+              <S.BoxNote>
+                <S.Note src={NoteIc} alt="Computador Logo"/>
+              </S.BoxNote>
+              <S.FormParg>
+                <S.ContTitlForm>
                   <h4>FRONT-END</h4>
-                </div>
+                </S.ContTitlForm>
                 <p>
-                 Quem trabalha com Front End é responsável por desenvolver por meio do código uma interface gráfica e, normalmente, com as tecnologias base da Web: HTML, CSS e JavaScript.
+                 Quem trabalha com Front End é responsável por desenvolver por meio 
                 </p>
-              </div>
-            </div>
+                <p>
+                  do código uma interface gráfica e, normalmente, com as tecnologias 
+                </p>
+                <p>base da Web: HTML, CSS e JavaScript.</p>
+              </S.FormParg>
+            </S.ContNote>
   
-            <div>
-              <div>
-                <img src="" alt=""/>
-              </div>
-              <div>
-                <div>
+            <S.ContNote>
+              <S.BoxNote>
+                <S.Note src={NoteIc} alt="Computador Logo"/>
+              </S.BoxNote>
+              <S.FormParg>
+                <S.ContTitlForm>
                   <h4>BACK-END</h4>
-                </div>
+                </S.ContTitlForm>
                 <p>
-                  O Back-End trabalha em boa parte dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias num ambiente restrito ao usuário final (ou seja, onde ele não consegue acessar ou manipular algo).
+                  O Back-End trabalha em boa parte dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco 
                 </p>
-              </div>
-            </div>
+                <p>de dados e vice-versa, sempre aplicando</p> 
+                <p>
+                  as devidas regras de negócio, validações e garantias num ambiente restrito ao usuário final (ou seja, onde ele não
+                </p>
+                <p> consegue acessar ou manipular algo).</p>
+                
+              </S.FormParg>
+            </S.ContNote>
   
-          </section>
+          </S.BoxCont>
           <section>
-            <div>
-              <img src="" alt=""/>
-            </div>
+            <S.BoxBack>
+              <S.Back src={Backg} alt="Fundo code"/>
+            </S.BoxBack>
           </section>
-        </section>
+        </S.ContForm>
 
     </>
   )
