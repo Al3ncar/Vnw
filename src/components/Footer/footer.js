@@ -11,7 +11,7 @@ export default function Footer(){
     return(
         <S.Cont>
             <S.TitlContato>
-                <h3>Contato</h3>
+                <h3 id="con">Contato</h3>
             </S.TitlContato>
             <S.ContRedes>
                 <S.Perf>

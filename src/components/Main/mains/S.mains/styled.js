@@ -12,6 +12,9 @@ export const ContEquip = styled.div`
     font-weight: bolder;
     padding-bottom:2.8% ;
     color:#0F2260;
+    @media(max-width:500px){
+        font-size: 5vw;
+    }
 `
 
 export const ContFilter = styled.div`
@@ -20,15 +23,20 @@ export const ContFilter = styled.div`
     display:flex;
     align-items: center;
     background-color: #0F2260;
+    @media(max-width:500px){
+        padding: 5% 0 5%  8%;
+    }
 `
 export const BoxFilter = styled.div`
     width:23%;
     outline: solid white 0.1vw;
     border-radius: 0.2vw;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media(max-width:500px){
+        width:50%;
+    }
 `
 export const Filter = styled.input`
     width:85%;
@@ -41,6 +49,9 @@ export const Filter = styled.input`
     ::placeholder{
         color:white;
         font-weight: 800;
+    }
+    @media(max-width:500px){
+        font-size:2vw;
     }
 `
 export const BoxLup= styled.button`
@@ -60,9 +71,9 @@ export const ContEquipVnw = styled.div`
     width:90%;
     display: flex;
     flex-wrap:wrap;
-
-       /*column-count: auto; */
-
+    @media(max-width:500px){
+        width:91%;
+    }
 `
 export const CardEquipe = styled.div`
     width:24%;
@@ -75,6 +86,9 @@ export const CardEquipe = styled.div`
     :hover{
         transform: scale(1.01);
     }
+    @media(max-width:500px){
+        width:32%;
+    }
 `
 export const ContProfisName = styled.div`
     width:100%;
@@ -86,6 +100,7 @@ export const ContProfisName = styled.div`
     position: relative;
     z-index: 10;
     background-image: linear-gradient(to top, #0F2260, #00145daf,#0f22607b,transparent);
+
 `   
 export const BoxProfiss = styled.div`
     width:100%;
@@ -100,10 +115,22 @@ export const Profiss = styled.img`
 export const Name = styled.h4`
     font-size: 1.6vw;
     padding-bottom:1.8%;
+    @media(max-width:500px){
+            font-size:3vw;
+            padding-bottom:9%;
+    }   
 `
 export const Area = styled.p`
-    font-size:1;
+
+    font-size:1vw;
     margin-bottom: 3.1%;
+    @media(max-width:500px){
+        width:100%;
+        text-align: center;
+        font-size:2vw;
+        margin-bottom: 8%;
+    }
+
 `
 
 //
@@ -115,7 +142,12 @@ export const ContEvent = styled.div`
 export const ContPerf = styled.div`
     font-size:2.8vw;
     padding-left:9.2%;
-
+    @media(max-width:500px){
+        font-size:5vw;
+        width:100%;
+        padding-right: 10%;
+        text-align: center;
+    }
 `
 
 export const ContTech = styled.div`
@@ -123,6 +155,9 @@ export const ContTech = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media(max-width:500px){
+        flex-direction: column;
+    }
 `
 export const BoxTechNote = styled.div`
     width:80%;
@@ -135,15 +170,27 @@ export const ContTechGirls = styled.div`
     width:22%;
     position:absolute;
     right:2%;
+    @media(max-width:500px){
+        width:80%;
+        position:relative;
+    }
 `
 export const TitlGirls = styled.div`
     font-size:2.5vw;
     padding:10% 0;
     color:#00145d;
+    @media(max-width:500px){
+        font-size: 4vw;
+        padding:15% 0 5% 0;
+    }
 `
 
 export const TechPerf = styled.p`
     width:82%;
     font-size: 1.1vw;
     padding:0 0 15% 0;
+    @media(max-width:500px){
+        font-size: 3.5vw;
+        width:100%;
+    }
 `

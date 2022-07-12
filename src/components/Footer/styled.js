@@ -13,6 +13,10 @@ export const TitlContato = styled.div`
     font-weight: bolder;
     font-size: 3vw;
     color: white;
+    @media(max-width:500px){
+        padding:9% 8%;
+        font-size: 5vw;
+    }
 `
 export const ContRedes = styled.div`
     padding-left: 7%;
@@ -26,15 +30,26 @@ export const Perf = styled.p`
     font-size: 1.2vw;
     font-weight: bolder;
     color: white;
+    @media(max-width:500px){
+        width: 40%;
+        font-size:3vw;
+    }
 `
 export const ContIcon = styled.div`
     width:80%;
     margin-bottom:8%;
+    @media(max-width:500px){
+        
+    }
 `
 export const BoxAnc = styled.a`
     width:30%;
+
 `
 export const Redes = styled.img`
     width: 6.5%;
     margin:0 1%;
+    @media(max-width:500px){
+        width:15%;
+    }
 `

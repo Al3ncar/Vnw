@@ -11,7 +11,7 @@ export default function Fmains(){
             </S.BoxLog>
             <S.ContSob>
                 <S.ContTitl>
-                    <S.Titl>Sobre o Vai Na Web</S.Titl>
+                    <S.Titl id="sob">Sobre o Vai Na Web</S.Titl>
                 </S.ContTitl>
                 <S.ContParg>
                     <S.Parg>

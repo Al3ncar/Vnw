@@ -111,7 +111,7 @@ export default function Fmains({children}) {
         <S.Equip>
             <div>
                 <S.ContEquip>
-                    <h3>Equipe</h3>
+                    <h3 id="eq">Equipe</h3>
                 </S.ContEquip>
                 <div>
                     <div>
@@ -128,7 +128,6 @@ export default function Fmains({children}) {
                             </S.BoxFilter>
                         </S.ContFilter>
                         <S.ContEquipVnw >
-                           
                             {EquipeFiltradas.map((item)=>(
                                 <S.CardEquipe 
                                 key={item.key}

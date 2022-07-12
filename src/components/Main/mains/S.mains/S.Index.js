@@ -8,7 +8,7 @@ export default function Smains(){
         <S.ContEvent>
             <div>
                 <S.ContPerf>
-                    <h3>Eventos</h3>
+                    <h3 id="ev">Eventos</h3>
                 </S.ContPerf>
                 <S.ContTech>
                     <S.BoxTechNote>

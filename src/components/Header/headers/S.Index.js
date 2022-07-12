@@ -1,10 +1,15 @@
 import React from 'react';
 import * as S from "./styled"
+import MiniLog from "./img_header/MiniLog.svg"
+
 export default function SecHeader() {
   return (
     <>
       <section>
         <S.Cont>
+          <S.BoxVnw>
+            <S.Vnw src={MiniLog} alt=""/>
+          </S.BoxVnw>
           <S.ContTitl>
             <S.Titl>
               <S.Bars>//</S.Bars>

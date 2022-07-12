@@ -3,6 +3,7 @@ import * as S from "./styled"
 import MiniLog from "./img_header/MiniLog.svg"
 
 export default function FirHeader(){
+    
     return(
         <>
             <section>
@@ -13,11 +14,11 @@ export default function FirHeader(){
                     <S.BoxNav>
                         <S.Navg>
                             <S.NavList>
-                                <S.Anc href=""><S.List>Sobre</S.List></S.Anc>
-                                <S.Anc href=""><S.List>Formação</S.List></S.Anc>              
-                                <S.Anc href=""><S.List>Equipe</S.List></S.Anc>   
-                                <S.Anc href=""><S.List>Eventos</S.List></S.Anc>   
-                                <S.Anc href=""><S.List>Contatos</S.List></S.Anc>   
+                                <S.Anc href="#sob"><S.List>Sobre</S.List></S.Anc>
+                                <S.Anc href="#for"><S.List>Formação</S.List></S.Anc>              
+                                <S.Anc href="#eq"><S.List>Equipe</S.List></S.Anc>   
+                                <S.Anc href="#ev"><S.List>Eventos</S.List></S.Anc>   
+                                <S.Anc href="#con"><S.List>Contatos</S.List></S.Anc>   
                             </S.NavList>
                         </S.Navg>
                     </S.BoxNav>
