@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Mod from "./modal"
 import * as S from "./styled"
 
 import Ph1 from "../imgs_main/imgs/photo1.jpg"
@@ -100,9 +99,8 @@ const equipe = [
     }
 ]
 
-export default function Fmains({children}) {
-/*     const [mod, setMod] = useState(false)
- */    const [busca, SetBusc]= useState(``)
+export default function Fmains() {
+    const [busca, SetBusc]= useState(``)
     const lowerBusca = busca.toLowerCase()
     const EquipeFiltradas = equipe
   .filter((equipe)=> equipe.name.toLowerCase().includes(lowerBusca))
@@ -126,13 +124,16 @@ export default function Fmains({children}) {
                                     <S.Lup src={Lup} alt="Lupa de busca(Equipe)"/>
                                 </S.BoxLup>
                             </S.BoxFilter>
+                            <div>
+                                <details>
+                                    <summary>Equipe Area</summary>
+                                </details>
+                            </div>
                         </S.ContFilter>
+                        
                         <S.ContEquipVnw >
                             {EquipeFiltradas.map((item)=>(
-                                <S.CardEquipe 
-                                key={item.key}
-/*                                 onClick={() => setMod(true)} */
-                                > {/* {mod === false ? <Mod/> :null} */}
+                                <S.CardEquipe key={item.key} > 
                                         <S.ContProfisName>
                                             <S.Name>{item.name}</S.Name>
                                             <S.Area>{item.profis}</S.Area>
@@ -144,9 +145,7 @@ export default function Fmains({children}) {
                             ))}
                         </S.ContEquipVnw>
 
-                        <div>
-                            <img src="" alt=""/>
-                        </div>
+
                     </div>
                 </div>
             </div>

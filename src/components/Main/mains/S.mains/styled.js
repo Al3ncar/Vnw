@@ -116,8 +116,11 @@ export const Name = styled.h4`
     font-size: 1.6vw;
     padding-bottom:1.8%;
     @media(max-width:500px){
-            font-size:3vw;
-            padding-bottom:9%;
+        width: 100%;
+        font-size:3vw;
+        padding-bottom:9%;
+        text-align: center;
+
     }   
 `
 export const Area = styled.p`

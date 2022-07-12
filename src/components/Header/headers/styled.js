@@ -20,14 +20,17 @@ export const Log = styled.img`
 `   
 export const BoxNav = styled.div`
     width:50%;
-    margin-right:13%;
+
+    margin-right: 13%;
     @media (max-width:500px){
         width:60%;
         padding-top:1%;
+        display: none;
     }
 `
 export const Navg = styled.nav`
     width:100%;
+
 `
 export const NavList = styled.ul`
     width:100%;
@@ -36,8 +39,14 @@ export const NavList = styled.ul`
     justify-content: space-around;
 
 `
+export const Anc = styled.a`
+    width:50%;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+`
 export const List = styled.li`
-    width:97%;
+    width:100%;
     padding:1% 2%;
     font-size:1.2vw;
     border-radius:2vw ;
@@ -55,13 +64,81 @@ export const List = styled.li`
         font-size:2.8vw;
     }   
 `
-export const Anc = styled.a`
-    width:50%;
-    text-align: center;
-    text-decoration: none;
-    color:white;
+export const CardMod = styled.div`
+    width:5%;
+    height:100%;
+    margin-right:1%;
+    display: none;
+
+    @media(max-width:500px){
+        display:flex;
+        justify-content:center;
+
+    }
+`
+export const bordMod = styled.button`
+    width:100%;
+    background-color:transparent;
+    border: none;
+`
+export const Menu  = styled.img`
+    width:100%;
 `
 
+export const ContModal = styled.section`
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, .5);
+    position:absolute;
+    top:0;
+    left:0;
+    right: 1%;
+
+`
+export const CardModal = styled.div`
+    width:50%;
+    margin-top: 8%;
+    background-color: #00145D;
+    border-radius: 2vw;
+
+`
+export const BtnMod = styled.button`
+    padding:  1% 5%;
+    border-radius: 50%;
+    font-size: 5vw;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+`
+
+export const NavMod = styled.nav`
+    width: 100%;
+    height: 100%;
+`
+export const AncMod = styled.a`
+    width:100%;
+    height: 100%;
+    font-size: 3vw;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+`
+
+export const LinkMod = styled.li`
+    width: 99%;
+    height: 100%;
+    padding: 5%;
+    margin:1%;
+    border-radius: 3vw;
+    color: orange;
+    font-weight:bolder;
+    &:hover{
+        outline:solid 0.2vw orange;
+    }
+`
 //
 
 
