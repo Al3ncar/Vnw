@@ -11,7 +11,7 @@ export const ContEquip = styled.div`
     font-size:2.8vw;
     font-weight: bolder;
     padding-bottom:2.8% ;
-    color:#0F2260;
+    color:${(props) => props.theme.collors.cor3};
     @media(max-width:500px){
         font-size: 5vw;
     }
@@ -22,7 +22,7 @@ export const ContFilter = styled.div`
     padding:2.9% 0 2.1% 6%;
     display:flex;
     align-items: center;
-    background-color: #0F2260;
+    background-color: ${(props) => props.theme.collors.cor3};
     @media(max-width:500px){
         padding: 5% 0 5%  8%;
     }
@@ -30,6 +30,7 @@ export const ContFilter = styled.div`
 export const BoxFilter = styled.div`
     width:23%;
     outline: solid white 0.1vw;
+    background-color: ${(props) => props.theme.collors.background};
     border-radius: 0.2vw;
     display: flex;
     justify-content: flex-start;
@@ -99,7 +100,11 @@ export const ContProfisName = styled.div`
     flex-direction: column;
     position: relative;
     z-index: 10;
-    background-image: linear-gradient(to top, #0F2260, #00145daf,#0f22607b,transparent);
+    background-image: linear-gradient(to top,
+        ${(props) => props.theme.collors.cor5}
+        , ${(props) => props.theme.collors.cor5}
+        ,${(props) => props.theme.collors.cor5}
+        ,transparent);
 
 `   
 export const BoxProfiss = styled.div`
@@ -115,6 +120,7 @@ export const Profiss = styled.img`
 export const Name = styled.h4`
     font-size: 1.6vw;
     padding-bottom:1.8%;
+    color:${(props) => props.theme.collors.cor4};
     @media(max-width:500px){
         width: 100%;
         font-size:3vw;
@@ -127,6 +133,7 @@ export const Area = styled.p`
 
     font-size:1vw;
     margin-bottom: 3.1%;
+    color:${(props) => props.theme.collors.sec};
     @media(max-width:500px){
         width:100%;
         text-align: center;
@@ -145,6 +152,7 @@ export const ContEvent = styled.div`
 export const ContPerf = styled.div`
     font-size:2.8vw;
     padding-left:9.2%;
+    color:${(props) => props.theme.collors.cor3};
     @media(max-width:500px){
         font-size:5vw;
         width:100%;

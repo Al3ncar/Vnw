@@ -2,9 +2,7 @@ import React from 'react';
 import * as S from "./styled"
 
 export default function ModHeader({id=`modal`, onClose=()=>{}}){
-    const Hand = (event) => {
-        if (event.target.id === id) onClose();
-      };
+    const Hand = (event) => {if (event.target.id === id) onClose();};
     return(
         <S.ContModal id={id} onClick={Hand}>
             <S.CardModal>
@@ -26,11 +24,13 @@ export default function ModHeader({id=`modal`, onClose=()=>{}}){
                         <S.AncMod href="#con">
                             <S.LinkMod>Contato</S.LinkMod>
                         </S.AncMod>
+                        <S.AncMod href="https://al3ncar.github.io/Academia/">
+                            <S.LinkMod>Academia</S.LinkMod>
+                        </S.AncMod>
                     </ul>
                 </S.NavMod>
             </S.CardModal>
         </S.ContModal>
-
     )
 }
 

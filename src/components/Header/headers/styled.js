@@ -13,7 +13,7 @@ export const BoxLog = styled.div`
 
 `
 export const Log = styled.img`
-    width:4%;
+    width:5%;
     position: fixed;
     top:2%;
     &:hover{transform: scale(1.1);}
@@ -22,7 +22,7 @@ export const BoxNav = styled.div`
     width:50%;
 
     margin-right: 13%;
-    @media (max-width:500px){
+    @media (max-width:800px){
         width:60%;
         padding-top:1%;
         display: none;
@@ -216,12 +216,13 @@ export const Card = styled.div`
     height: 100%;
     margin: 6vh 0 0 10%;
     padding:0 1.3%;
-    background-color: #fff;
+    background-color: ${(props) => props.theme.collors.cor1};
+    
     border-radius:1vw;
     &:hover{
         transform: scale(1.01);
     }
-    @media(max-width:500px){
+    @media(max-width:800px){
         width:80%;
     }
 
@@ -245,7 +246,7 @@ export const Close = styled.button`
     margin:0 5%;
     border: none;
     border-radius: 50%;
-    background-color: #00145D;
+    background-color:${(props) => props.theme.collors.cor2};
     &:hover{
         transform:scale(1.15);
     }
@@ -255,7 +256,7 @@ export const Bord = styled.div`
     width:91%;
     height:0.8vh;
     border-radius: 1vw;
-    background-color:#00145D ;
+    background-color:${(props) => props.theme.collors.cor2} ;
 `
 export const ContInscre= styled.div`
     width:100%;
@@ -264,7 +265,7 @@ export const ContInscre= styled.div`
 export const Inscre = styled.h2`
     width:100%;
     font-size: 3.1vw;
-    color:#00145D;
+    color:${(props) => props.theme.collors.cor2};
     @media(max-width:500px){
         font-size:5vw;
 
@@ -274,6 +275,7 @@ export const Inscre = styled.h2`
 export const InscreParg = styled.p`
     font-size:1.9vw;
     padding:2.5% 0 ;
+    color:${(props) => props.theme.collors.cor2};
     @media(max-width:500px){
         font-size:3vw;
 
