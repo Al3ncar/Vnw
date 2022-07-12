@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.js": "/Vnw/static/js/main.855fd81b.js",
+    "static/media/BackVnw.png": "/Vnw/static/media/BackVnw.5f901aab79a1a898376f.png",
+    "static/media/techGirls.png": "/Vnw/static/media/techGirls.c0483ef966fb8472e8d3.png",
+    "static/media/BackFooter.png": "/Vnw/static/media/BackFooter.4789a2cc77c7cb65c60a.png",
+    "static/media/codBack.png": "/Vnw/static/media/codBack.d6097c248cfeee7b159c.png",
+    "static/media/photo11.jpg": "/Vnw/static/media/photo11.cc1e445aebc48efdf0d4.jpg",
+    "static/media/photo5.jpg": "/Vnw/static/media/photo5.633338c3efc70a21fbf1.jpg",
+    "static/media/photo15.jpg": "/Vnw/static/media/photo15.0503105e63e0df8fe52a.jpg",
+    "static/media/photo12.jpg": "/Vnw/static/media/photo12.8544b43fa26970b114b6.jpg",
+    "static/media/photo7.jpg": "/Vnw/static/media/photo7.2c91308d0ede3d375900.jpg",
+    "static/media/photo4.jpg": "/Vnw/static/media/photo4.4322e19f20e368b0b1da.jpg",
+    "static/media/photo6.jpg": "/Vnw/static/media/photo6.25f828780d33e2af921f.jpg",
+    "static/media/photo8.jpg": "/Vnw/static/media/photo8.39ad350d43c516709f82.jpg",
+    "static/media/photo13.jpg": "/Vnw/static/media/photo13.4b00306e3b81fa24926c.jpg",
+    "static/media/photo14.jpg": "/Vnw/static/media/photo14.94d241ad0ddad207bef2.jpg",
+    "static/media/photo3.jpg": "/Vnw/static/media/photo3.45387f86537415d28fb5.jpg",
+    "static/media/photo9.jpg": "/Vnw/static/media/photo9.c3e7782cce8ad59a8f24.jpg",
+    "static/media/photo10.jpg": "/Vnw/static/media/photo10.5fde0b6a676d32035652.jpg",
+    "static/media/photo1.jpg": "/Vnw/static/media/photo1.5df58ea93b667b34e098.jpg",
+    "static/media/photo2.jpg": "/Vnw/static/media/photo2.6953dde0c922f16682fc.jpg",
+    "static/media/MiniLog.svg": "/Vnw/static/media/MiniLog.e265a6c56515ee9cead459c8f312cc18.svg",
+    "static/media/LargLog.svg": "/Vnw/static/media/LargLog.c36305da718696f760d4e5fe7baad1be.svg",
+    "static/media/icoNote.svg": "/Vnw/static/media/icoNote.fb28294e139d1a12a7a2cf7ff557b233.svg",
+    "static/media/btnMode.webp": "/Vnw/static/media/btnMode.facd17c2dc8c5107256b.webp",
+    "static/media/insta.svg": "/Vnw/static/media/insta.4c0d98b5ba1ca50bd520097e823ee81f.svg",
+    "static/media/link.svg": "/Vnw/static/media/link.76cbc12e12fb04a3b517c37458e1cd92.svg",
+    "static/media/tube.svg": "/Vnw/static/media/tube.ae8d86c06c7eae269111fa4f845e70bc.svg",
+    "index.html": "/Vnw/index.html",
+    "static/media/face.svg": "/Vnw/static/media/face.28d2ca5045bace9ac9301b534921a6fe.svg",
+    "static/media/medium.svg": "/Vnw/static/media/medium.83ce9e2793b59a39095985a286487fb7.svg",
+    "static/media/lup.svg": "/Vnw/static/media/lup.96c32d1b8ba7c5c600bb10907fa753a0.svg",
+    "main.855fd81b.js.map": "/Vnw/static/js/main.855fd81b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.855fd81b.js"
+  ]
+}
