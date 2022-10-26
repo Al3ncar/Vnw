@@ -3,7 +3,7 @@
 
 
 <p>
-    Este é o projeto do estúdio (vai na web), onde tive que construir uma aplicação em React e desenvolver um layout semelhante ao design. Em suas funcionalidades está um filtro, dark mode(modo escuro), responsivo e alguns redirecionamentos dentro da própria web. Nesta aplicação usei a linguagem JavaScript, com o framework React usando React Hooks, Styled-components e JSX.
+    Este é o projeto do estúdio (vai na web), onde tive que construir uma aplicação em React e desenvolver um layuot semelhante ao design. Em suas funcionalidades está um filtro, dark mode(modo escuro), responsivo e alguns redirecionamentos dentro da própria web. Nesta aplicação usei a linguagem JavaScript, com o framework React usando React Hooks, Styled-components e JSX.
 </p>
 
 <p>Light Mode:</p>
